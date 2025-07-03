@@ -15,8 +15,8 @@ dependencies:
     specifier: ^19.1.0
     version: 19.1.0(react@19.1.0)
   reactjs-player-media:
-    specifier: ^0.0.2
-    version: 0.0.2(@types/react-dom@19.1.1)(@types/react@19.1.0)(react-dom@19.1.0)(react@19.1.0)
+    specifier: ^0.0.7
+    version: 0.0.7(@types/react-dom@19.1.1)(@types/react@19.1.0)(react-dom@19.1.0)(react@19.1.0)
 
 devDependencies:
   '@types/node':
@@ -3129,8 +3129,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
-  /reactjs-player-media@0.0.2(@types/react-dom@19.1.1)(@types/react@19.1.0)(react-dom@19.1.0)(react@19.1.0):
-    resolution: {integrity: sha512-fGPgrQx1oUnWcqC16pFQnOJUBScmDzY5jtf6j+SEB5zKTKC+vAiOGpaap+MJyQqPLpmDyzlxeKM/v469QeeDHg==}
+  /reactjs-player-media@0.0.7(@types/react-dom@19.1.1)(@types/react@19.1.0)(react-dom@19.1.0)(react@19.1.0):
+    resolution: {integrity: sha512-0sW+kKVMJKw0LpSAzQb6afkUVBWxiwUbBqyC424HIrubOTFG5lbPdWCVpM54GNuqoHa+sSTywwgHG5Wu91mcNA==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       react: '>=17.0.2'

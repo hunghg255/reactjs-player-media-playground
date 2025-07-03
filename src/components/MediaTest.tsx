@@ -304,18 +304,22 @@ function MediaTest() {
       </div>
 
 
+      <h2>Media Player</h2>
       <MediaPlayerBasic />
 
       <br />
+      <h2>Audio Player</h2>
 
       <MediaPlayerSettingsDemo />
 
       <br />
 
+      <h2>With Settings Menu</h2>
       <MediaPlayerAudioDemo />
 
       <br />
 
+      <h3>Video Error</h3>
       <MediaPlayerErrorDemo />
     </div>
   )
