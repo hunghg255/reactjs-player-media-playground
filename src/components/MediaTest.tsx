@@ -3,7 +3,7 @@
 
 'use client';
 
-import { Code } from '@/components/Code';
+import { CodeDemo } from '@/components/Code';
 import {
   MediaPlayer,
   MediaPlayerControls,
@@ -629,9 +629,9 @@ function MediaTest() {
       <h2>Media Player</h2>
       <MediaPlayerBasic />
 
-      <Code>
+      <CodeDemo>
         {code1}
-      </Code>
+      </CodeDemo>
 
       <br />
       <hr />
@@ -641,9 +641,9 @@ function MediaTest() {
 
       <MediaPlayerSettingsDemo />
 
-      <Code>
+      <CodeDemo>
         {code2}
-      </Code>
+      </CodeDemo>
 
       <br />
       <hr />
@@ -652,9 +652,9 @@ function MediaTest() {
       <h2>Audio</h2>
       <MediaPlayerAudioDemo />
 
-      <Code>
+      <CodeDemo>
         {code3}
-      </Code>
+      </CodeDemo>
 
       <br />
       <hr />
@@ -662,9 +662,9 @@ function MediaTest() {
 
       <h3>Video Error</h3>
       <MediaPlayerErrorDemo />
-      <Code>
+      <CodeDemo>
         {code4}
-      </Code>
+      </CodeDemo>
     </div>
   )
 }

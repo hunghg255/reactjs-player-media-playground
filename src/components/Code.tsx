@@ -1,19 +1,11 @@
-import { useEffect, useState } from "react";
-import { codeToHtml } from 'shiki';
+import { Code } from 'codice'
 
-export function Code({ children, lang = 'javascript' }: { children: string; lang?: string }) {
-  const [code, setcode] = useState('');
-
-  useEffect(() => {
-    const fetchCode = async () => {
-      const html = await codeToHtml(children, {
-        lang: lang,
-        theme: 'vitesse-light',
-      });
-      setcode(html);
-    };
-    fetchCode();
-  }, []);
-
-  return <div dangerouslySetInnerHTML={{ __html: code }}></div>;
+export function CodeDemo({ children, lang = 'javascript' }: { children: string; lang?: string }) {
+  return <div className='code-example__item'><Code
+  title="app/index.js"
+  lang='javascript'
+  preformatted
+>
+  {children}
+</Code></div>;
 }
